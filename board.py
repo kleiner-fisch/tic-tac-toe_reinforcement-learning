@@ -21,7 +21,6 @@ class Board:
         return self.entries[y * 3 + x]
     
     def putValue(self, x, y, v):
-        #self.entries[y * 3 + x] = v
         self.entries = self.entries[:y * 3 + x] + (v,) + self.entries[y * 3 + x + 1:] 
 
 

@@ -2,7 +2,7 @@ from board import Board
 import random
 from learning_player import LearningPlayer
 from random_player import RandomPlayer
-import ipdb
+# import ipdb
 
 '''Simple module to train an AI-player using reinforcement learning.
     Currently 3 player types are supported: the learning player, random player and human player.

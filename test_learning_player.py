@@ -2,7 +2,7 @@ import unittest
 from learning_player import LearningPlayer
 from board import Board
 import board
-import ipdb
+# import ipdb
 
 
 
